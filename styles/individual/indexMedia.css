@@ -1,0 +1,89 @@
+@media (max-width: 960px) {
+  header ul {
+    gap: 40px;
+    margin-right: 20px;
+  }
+  header ul li {
+    width: 80px;
+    height: 48px;
+  }
+  .job ul {
+    margin-right: 60px;
+  }
+  #lExp ul {
+    margin-right: 60px;
+  }
+  #pInfo {
+    margin-bottom: 30px;
+    display: inline-block;
+  }
+  #pInfo p {
+    margin-left: 60px;
+  }
+  #pInfo img {
+    width: 50%;
+  }
+  footer li:nth-child(4),
+  footer li:nth-child(2) {
+    display: none;
+  }
+  nav ul li:nth-child(4) {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  header ul {
+    gap: 10px;
+    margin-right: 0;
+  }
+
+  header ul li {
+    width: 60px;
+    height: 36px;
+  }
+  header h1 {
+    font-size: 25px;
+  }
+  #mSkills ul {
+    margin-right: 10px;
+  }
+  #pInfo p {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  #mSkills ul {
+    margin-right: 10px;
+    margin-left: 30px;
+  }
+  .job {
+    margin-left: 30px;
+    margin-right: 20px;
+  }
+  #lExp ul {
+    margin-left: 50px;
+  }
+
+  #pInfo h2,
+  #mSkills h2,
+  #wExp h2,
+  #lExp h2 {
+    margin-left: 20px;
+  }
+
+  #lExp span,
+  .job span {
+    font-size: 16px;
+    font-weight: normal;
+  }
+  footer li:nth-child(1) {
+    display: none;
+  }
+  footer {
+    padding-left: 0;
+  }
+  #lExp p {
+    margin-left: 30px;
+  }
+}
