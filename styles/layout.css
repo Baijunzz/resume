@@ -1,0 +1,40 @@
+body {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "nav"
+    "pInfo"
+    "mSkills"
+    "wExp"
+    "lExp"
+    "footer";
+  grid-template-columns: 1fr;
+}
+
+header {
+  grid-area: header;
+}
+
+nav {
+  grid-area: nav;
+}
+
+#pInfo {
+  grid-area: pInfo;
+}
+
+#mSkills {
+  grid-area: mSkills;
+}
+
+#wExp {
+  grid-area: wExp;
+}
+
+#lExp {
+  grid-area: lExp;
+}
+
+footer {
+  grid-area: footer;
+}
